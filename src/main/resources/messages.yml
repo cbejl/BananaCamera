@@ -1,0 +1,6 @@
+camera.task.run: "Камера запущена"
+camera.task.already.run: "Камера уже запущена!"
+camera.task.stop: "Камера остановлена"
+camera.task.already.stop: "Камера уже остановлена."
+camera.notfound: "Камера не найдена или допущена ошибка в конфигурации!"
+camera.config.reload: "Конфиг перезагружен!"
