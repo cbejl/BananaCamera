@@ -1,0 +1,4 @@
+name: BananaCamera
+version: '${project.version}'
+main: cbejl.bananacamera.BananaCamera
+api-version: '1.20'
