@@ -6,6 +6,11 @@
 - 1 игрок-камера.
 - 1 минута настройка конфига.
 
+**bcamera.control** - разрешение на использование комманд (по умолчанию: оп)
+- **/bcamera *run*** - запуск телепортаций камеры
+- **/bcamera *stop*** - остановка камеры
+- **/bcamera *reload*** - перезагрузка ВСЕХ конфигов. Можно использовать когда камера запущена. Она подстроится под новые параметры/локации. 
+
 ***config.yml:***
 ```yaml
 cameraName: "NickName"  - имя игрока-камеры
@@ -30,6 +35,11 @@ locations:
 For the plugin to work, you need:
 - 1 player is a camera.
 - 1 minute configuration of the config.
+
+**bcamera.control** - permission to use commands (op default)
+- **/bcamera *run*** - run camera teleportation
+- **/bcamera *stop*** - stop camera teleportation
+- **/bcamera *reload*** - reload ALL configs. it can be used when the process is running. the camera will accept the new parameters.
 
 ***config.yml:***
 ```yaml
