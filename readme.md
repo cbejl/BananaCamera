@@ -22,3 +22,27 @@ locations:
     rotation: [ 0.0,0.0 ] - поворот камеры  
 ```
 
+---
+<sub>translate:<sub>
+## **BananaCamera**
+**a plugin that adds a camera that teleports to significant server locations.**
+
+For the plugin to work, you need:
+- 1 player is a camera.
+- 1 minute configuration of the config.
+
+***config.yml:***
+```yaml
+cameraName: "NickName"  - nickname of camera-player
+period: 10              - the time in seconds after which the location will change
+```
+
+***locations.yml:***
+```yaml
+locations:
+  - title: "Title"      - a main line of text displayed on the screen
+    subtitle: "sub"     - a second line of text displayed on the screen
+    world: "world"      - the name of the dimension folder to which the camera is teleported
+    xyz: [ 0.0,0.0,0.0 ] - camera coordinates
+    rotation: [ 0.0,0.0 ] - camera rotation
+```
